@@ -13,11 +13,11 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** that allows u
 ## 🛠️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
-    
-    ```bash
-    git clone <your-repo-url>
-    cd <your-repo-name>
-    ```
+
+```bash
+git clone <your-repo-url>
+cd <your-repo-name>
+```
 ### 2️⃣ Create & Activate Virtual Environment
 - On Windows (PowerShell)
     ```bash
@@ -27,9 +27,9 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** that allows u
 
 ### 3️⃣ Install Dependencies
     
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 ## 🔑 API Keys Setup
 

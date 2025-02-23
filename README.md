@@ -15,8 +15,8 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** that allows u
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/DivyanshKushwaha/Chat-With-Your-Documents.git
+cd Chat-With-Your-Documents
 ```
 ### 2️⃣ Create & Activate Virtual Environment
 - On Windows (PowerShell)
@@ -40,11 +40,15 @@ cd <your-repo-name>
 
 ### 🌲 Pinecone Setup
 - Go to Pinecone and sign up/log in.
-- Create a new index with:
-- Index Name: your_index_name
-- Dimension: 768 (for Gemini embeddings)
-- Metric: cosine
+- Create a new index with: 
+    - Index Name: your_index_name
+    - Dimension: 768 (for Gemini embeddings)
+    - Metric: cosine
 - Copy your Pinecone API key from the dashboard.
+- Change 'INDEX_NAME' value in db.py to 'your_index_name'
+    ```bash 
+    INDEX_NAME = "your_index_name"
+    ```
 
 
 ### 🤖 Google Gemini AI Setup
@@ -66,7 +70,7 @@ Generate an API Key for Gemini.
 ## 📜 File Structure
 - After running and uploading a document you will see structure like 
     ```bash 
-    📂 RAG-Chatbot
+    📂 Chat-With-Your-Documents
     ├── 📂 data
     │   ├── 📂 uploads  # Uploaded documents
     ├── 📂 utils

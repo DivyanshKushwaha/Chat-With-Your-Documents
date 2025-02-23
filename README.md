@@ -87,3 +87,19 @@ Generate an API Key for Gemini.
     ├── .env            # API Keys (not committed)
     └── README.md       # Project Documentation
     ```
+
+
+## 🛠️ How It Works
+- Upload a document → The file is processed and embeddings are stored in Pinecone.
+- Query the chatbot → Retrieves relevant text from Pinecone and passes it to Gemini AI.
+- Generate a response → Gemini AI uses the retrieved context to answer your query.
+
+
+## 🏆 Optimizations Implemented
+- ✅ Avoid duplicate embeddings:
+        - The app checks if a document is already stored in Pinecone before adding it again, saving costs.
+- ✅ Efficient querying:
+        - Uses namespaces in Pinecone to organize documents.
+        - Limits unnecessary API calls to Google Gemini.
+- ✅ Streamlit UI improvements:
+        - Prevents auto-triggered responses when typing.

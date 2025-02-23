@@ -58,8 +58,8 @@ Generate an API Key for Gemini.
 ## 📂 Environment Variables
 - Create a .env file in the project root and add
     ```bash
-    PINECONE_API_KEY=your-pinecone-api-key
-    GEMINI_API_KEY=your-gemini-api-key
+    PINECONE_API_KEY="your-pinecone-api-key"
+    GEMINI_API_KEY="your-gemini-api-key"
     ```
 ## ▶️ Running the Application
 - Once everything is set up, launch the application 

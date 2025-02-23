@@ -66,6 +66,10 @@ Generate an API Key for Gemini.
     ```bash 
     streamlit run app.py 
     ```
+- Access application on 
+    ```bash 
+    http://localhost:8501
+    ```
 
 ## 📜 File Structure
 - After running and uploading a document you will see structure like 

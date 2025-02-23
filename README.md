@@ -26,10 +26,15 @@ cd <your-repo-name>
     ```
 
 ### 3️⃣ Install Dependencies
-    
-```bash
-pip install -r requirements.txt
-```
+- Give command in powershell 
+    ```bash
+    pip install -r requirements.txt
+    ```
+- If pinecone[grpc] module gives error while installing, Give this command 
+    ```bash 
+    pip install "pinecone[grpc]"
+    ```
+
 
 ## 🔑 API Keys Setup
 

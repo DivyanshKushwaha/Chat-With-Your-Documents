@@ -40,6 +40,15 @@ pip install -r requirements.txt
 - Dimension: 768 (for Gemini embeddings)
 - Metric: cosine
 - Copy your Pinecone API key from the dashboard.
-🤖 Google Gemini AI Setup
+
+
+### 🤖 Google Gemini AI Setup
 Go to Google AI Studio.
 Generate an API Key for Gemini.
+
+## 📂 Environment Variables
+- Create a .env file in the project root and add
+    ```bash
+    PINECONE_API_KEY=your-pinecone-api-key
+    GEMINI_API_KEY=your-gemini-api-key
+    ```

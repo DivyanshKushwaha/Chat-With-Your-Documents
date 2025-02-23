@@ -30,7 +30,7 @@ cd <your-repo-name>
     ```bash
     pip install -r requirements.txt
     ```
-- If pinecone[grpc] module gives error while installing, Give this command 
+- If <b>pinecone[grpc]</b> module gives error while installing, Give this command 
     ```bash 
     pip install "pinecone[grpc]"
     ```

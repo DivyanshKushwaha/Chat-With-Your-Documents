@@ -27,7 +27,6 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** that allows u
 ### 3️⃣ Install Dependencies
     ```bash
     pip install -r requirements.txt
-
     ```
 
 ## 🔑 API Keys Setup

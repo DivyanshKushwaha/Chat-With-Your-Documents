@@ -57,3 +57,25 @@ Generate an API Key for Gemini.
     PINECONE_API_KEY=your-pinecone-api-key
     GEMINI_API_KEY=your-gemini-api-key
     ```
+## ▶️ Running the Application
+- Once everything is set up, launch the application 
+    ```bash 
+    streamlit run app.py 
+    ```
+
+## 📜 File Structure
+- After running and uploading a document you will see structure like 
+    ```bash 
+    📂 RAG-Chatbot
+    ├── 📂 data
+    │   ├── 📂 uploads  # Uploaded documents
+    ├── 📂 utils
+    │   ├── db.py       # Pinecone VectorStore Management
+    │   ├── file_handler.py # Handles file uploads & text extraction
+    │   ├── llm.py      # Google Gemini AI LLM integration
+    │   ├── rag.py      # RAG pipeline (retrieval + generation)
+    ├── app.py          # Streamlit frontend
+    ├── requirements.txt # Dependencies
+    ├── .env            # API Keys (not committed)
+    └── README.md       # Project Documentation
+    ```

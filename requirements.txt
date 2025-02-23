@@ -1,0 +1,9 @@
+pinecone[grpc]
+python-docx
+unstructured
+streamlit
+python-dotenv
+langchain
+langchain-google-genai
+pinecone-client
+pypdf

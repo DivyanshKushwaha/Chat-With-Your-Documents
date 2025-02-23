@@ -70,6 +70,8 @@ Generate an API Key for Gemini.
     ```bash 
     http://localhost:8501
     ```
+- After uploading file by 'browse files' option, If it says to upload files before proceeding then Upload file once more by Browse files option 
+ 
 
 ## 📜 File Structure
 - After running and uploading a document you will see structure like 

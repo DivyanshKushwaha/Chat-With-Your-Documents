@@ -2,7 +2,7 @@
 
 This project is a **Retrieval-Augmented Generation (RAG) chatbot** that allows users to upload documents (PDF, DOCX, TXT) and chat with them using **Google Gemini AI**. The documents are stored as vector embeddings in **Pinecone**, enabling efficient retrieval of relevant information when a query is made.
 
-![alt text](image.png)
+![Image](https://github.com/user-attachments/assets/789ae8a5-5cd8-4cea-9672-6c51a75706b9)
 
 ## 🚀 Features
 - **Upload & Process Documents**: Supports PDF, TXT, and DOCX files.
